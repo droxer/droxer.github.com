@@ -1,0 +1,7 @@
+baseurl = "http://blog.droxer.info/"
+languageCode = "en-us"
+title = "Constantly Thinking"
+theme = "purehugo"
+
+[params]
+  githubName = "droxer"
