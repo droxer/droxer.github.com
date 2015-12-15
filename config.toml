@@ -3,7 +3,6 @@ languageCode = "en-us"
 title = "Constantly Thinking"
 theme = "purehugo"
 disqusShortname = "droxer"
-UA-71396024-1
 
 [params]
   githubName = "droxer"
