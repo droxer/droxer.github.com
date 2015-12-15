@@ -1,20 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Constantly Thinking</title>
-    <link>http://droxer.github.io/blog/</link>
-    <description>Recent content on Constantly Thinking</description>
+    <title></title>
+    <link>/</link>
+    <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
     <lastBuildDate>Wed, 28 Oct 2015 23:34:00 +0800</lastBuildDate>
-    <atom:link href="http://droxer.github.io/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>你的技术热情在哪里？</title>
-      <link>http://droxer.github.io/blog/enthusiastic-on-programming/</link>
+      <link>/enthusiastic-on-programming/</link>
       <pubDate>Wed, 28 Oct 2015 23:34:00 +0800</pubDate>
       
-      <guid>http://droxer.github.io/blog/enthusiastic-on-programming/</guid>
+      <guid>/enthusiastic-on-programming/</guid>
       <description>&lt;p&gt;最近一两年参加了很多的面试，技术热情作为 &lt;a href=&#34;http://www.thoughtworks.com/&#34;&gt;ThoughtWorks&lt;/a&gt; 技术文化最重要的组成部分，也成为了我们面试时候衡量一个人非常中重要的一个因素。&lt;/p&gt;
 
 &lt;p&gt;在我面试过所有人中不管是工作过一两年的程序员，还是有十几年工作经验的“架构师”，当我问到这个问题的时候，其中很大一部分的人都表示自己对技术充满的热情，非常喜欢写程序。一般情况，我会用下面的问题来做一个简单的验证：&lt;/p&gt;
