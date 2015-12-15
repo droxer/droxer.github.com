@@ -1,4 +1,4 @@
-baseurl = "http://droxer.github.io/blog"
+baseurl = "http://blog.droxer.me"
 languageCode = "en-us"
 title = "Constantly Thinking"
 theme = "purehugo"
