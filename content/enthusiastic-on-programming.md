@@ -1,5 +1,5 @@
 +++
-Categories = ["programming", "Capbility"]
+Categories = ["programming"]
 Description = ""
 date = "2015-10-28T23:34:00+08:00"
 title = "你的技术热情在哪里?"
