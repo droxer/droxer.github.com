@@ -1,8 +1,9 @@
----
-layout: post
-date: "2015-10-28T23:34:00+08:00"
-title: 你的技术热情在哪里？
----
++++
+Categories = ["programming", "Capbility"]
+Description = ""
+date = "2015-10-28T23:34:00+08:00"
+title = "你的技术热情在哪里?"
++++
 
   最近一两年参加了很多的面试，技术热情作为 [ThoughtWorks](http://www.thoughtworks.com/) 技术文化最重要的组成部分，也成为了我们面试时候衡量一个人非常中重要的一个因素。
 
