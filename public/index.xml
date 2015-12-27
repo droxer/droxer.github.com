@@ -6,8 +6,68 @@
     <description>Recent content on Constantly Thinking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 28 Oct 2015 23:34:00 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 26 Dec 2015 21:18:04 +0800</lastBuildDate>
     <atom:link href="http://blog.droxer.me/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>理解Reactive Functional Programming</title>
+      <link>http://blog.droxer.me/rfp/</link>
+      <pubDate>Sat, 26 Dec 2015 21:18:04 +0800</pubDate>
+      
+      <guid>http://blog.droxer.me/rfp/</guid>
+      <description>
+
+&lt;p&gt;自己在学习了解reactive functional programming的过程中，看了很多文章，视频，阅读了一些现有实现的源代码，甚至是自己去尝试实现一个简单的&lt;a href=&#34;https://github.com/droxer/RxGo/&#34; title=&#34;RxGo&#34;&gt;reactive框架&lt;/a&gt;。而在这些之后才对reactive funcational programming有一个一点点肤浅的理解。&lt;/p&gt;
+
+&lt;p&gt;学习过程中，按照自己以往的习惯，我先去&lt;a href=&#34;https://en.wikipedia.org/wiki/Functional_reactive_programming/&#34; title=&#34;wikipidea&#34;&gt;wikipedia&lt;/a&gt;，想要对这个东西有一个初步的理解，明白它是什么东西，解决什么问题。而&lt;a href=&#34;https://en.wikipedia.org/wiki/Functional_reactive_programming/&#34; title=&#34;wikipidea&#34;&gt;wikipedia&lt;/a&gt;上面的第一句话是&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;ldquo;Functional reactive programming (FRP) is a programming paradigm for reactive programming (asynchronous dataflow programming) using the building blocks of functional programming (e.g. map, reduce, filter).&amp;rdquo;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;当时自己看到这个时，觉得这个描述过于抽象。自己一下子根本无法理解，但实际上当自己看完大量的文章视频之后，发现这个真的才是最准确的定义。&lt;/p&gt;
+
+&lt;h2 id=&#34;asynchronous-dataflow-programming:2b8e6972a732d10b5a0c8b16d42b4f7f&#34;&gt;asynchronous dataflow programming&lt;/h2&gt;
+
+&lt;p&gt;dataflow可以是web应用中页面上用户的点击，系统中的一个个事件，包括用户的一个输入，对一个list的迭代等等。asynchronous dataflow programming是说，我们会异步的方式捕捉这些数据流，并在某些特定值或者满足某些特定条件的情况下执行相应的操作。这非常类似我们在设计模式中&lt;a href=&#34;https://en.wikipedia.org/wiki/Observer_pattern/&#34; title=&#34;observer pattern&#34;&gt;观察者模式&lt;/a&gt;。&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code&gt;
+c 代表鼠标的单击
+---&gt; 代表时间线
+
+--c----c-c----c---c----&gt;
+    &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;h2 id=&#34;reactive-functional-programming:2b8e6972a732d10b5a0c8b16d42b4f7f&#34;&gt;reactive functional programming&lt;/h2&gt;
+
+&lt;p&gt;根据&lt;a href=&#34;https://github.com/droxer/RxGo/&#34; title=&#34;RxGo&#34;&gt;wiki&lt;/a&gt;的定义，是我们使用一些函数式编程中的方法对来操作这些asynchronous dataflow。：&lt;/p&gt;
+
+&lt;pre&gt;
+    &lt;code&gt;
+鼠标的点击事件流:
+               ---c----cc--c----ccc----c--&gt;
+
+               bufer(clickStream.throttle(250ms))
+
+               --1c----2c---1c---3c---1c---&gt;
+
+               map(e.length)
+
+               ---1-----2----1----3----1---&gt;
+
+               filter(x &gt;= 2)
+
+               ---------2---------2---------&gt;
+    &lt;/code&gt;
+&lt;/pre&gt;
+
+&lt;p&gt;在上图，我们看到一个鼠标点击的asynchronous dataflow。首先，我们计算出每250ms的鼠标点击次数，然后使用map函数影射出每250ms内鼠标的点击次数，最后filter出两次以上的点击。最后我们可以根据我们最后的结果来执行相应的操作，比如说我们认为只有这样过滤出来的鼠标点击，我们认为是一次用户的双击操作。&lt;/p&gt;
+
+&lt;p&gt;上面是我对于Reactive Functional Programming一个非常粗浅的理解。如果大家想了解细节更多可以看看这个视频&lt;a href=&#34;http://www.infoq.com/presentations/Netflix-API-rxjava-hystrix&#34;&gt;Functional Reactive Programming in the Netflix API&lt;/a&gt;，另外&lt;a href=&#34;https://github.com/ReactiveX&#34;&gt;ReactiveX&lt;/a&gt;里有很多不同语言上对于Reactive Functional Programming的实现。&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>你的技术热情在哪里?</title>
