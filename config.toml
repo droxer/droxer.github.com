@@ -1,6 +1,6 @@
 baseurl = "http://blog.droxer.me"
 languageCode = "en-us"
-title = "Constantly Thinking"
+title = "Distributed Thinking"
 theme = "purehugo"
 disqusShortname = "droxer"
 
