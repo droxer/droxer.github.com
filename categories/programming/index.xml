@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Programming on Constantly Thinking</title>
+    <title>Programming on Distributed Thinking</title>
     <link>http://blog.droxer.me/categories/programming/</link>
-    <description>Recent content in Programming on Constantly Thinking</description>
+    <description>Recent content in Programming on Distributed Thinking</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 26 Dec 2015 21:18:04 +0800</lastBuildDate>
