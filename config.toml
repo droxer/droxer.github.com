@@ -12,5 +12,5 @@ publishdir = "public"
 [params]
   search_engine = true
   google_analytics_id= "UA-71396024-1"
-
+  paginate = true
   disqus_Shortname = "droxer"
