@@ -1,10 +1,10 @@
 +++
-Categories = ["programming"]
-Description = "reactive functional programming explanation."
-Tags = ["programming"]
+tags = ["programming"]
 date = "2015-12-26T21:18:04+08:00"
 title = "理解Reactive Functional Programming"
-
+slug = "understanding_reactive_functional_programming"
+type = "post"
+author = "droxer"
 +++
 
 自己在学习了解reactive functional programming的过程中，看了很多文章，视频，阅读了一些现有实现的源代码，甚至是自己去尝试实现一个简单的[reactive框架][1]。而在这些之后才对reactive funcational programming有一个一点点肤浅的理解。

@@ -1,9 +1,0 @@
-baseurl = "http://blog.droxer.me"
-languageCode = "en-us"
-title = "Constantly Thinking"
-theme = "purehugo"
-disqusShortname = "droxer"
-
-[params]
-  githubName = "droxer"
-  google_analytics = "UA-71396024-1"

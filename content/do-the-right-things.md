@@ -1,10 +1,10 @@
 +++
-Categories = ["thoughts", "retrospective"]
-Description = "Do the right things first, then do things right"
-Tags = ["thoughts"]
+tags = ["thoughts", "retrospective"]
 date = "2015-12-31T22:51:09+08:00"
 title = "Do the Right Things"
-
+slug = "do_the_right_things"
+type = "post"
+author = "droxer"
 +++
 
 2015马上就要过去了，也到了公司一年一次的annual review的时候了。自己也需要和自己的sponsee们一起聊聊他们过去的一年，按照往年的模式，我们的回顾主要集中在下面三个方面：
