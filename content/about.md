@@ -18,10 +18,8 @@ In no particular order, these are things that interest me and that I spend an un
 * Database
 * Bigdata
 * DevOps
-* Functional Programming
+* Architecture Design
 * Golang
-* Python
 
 github: [github.com/droxer](https://github.com/droxer)
 email: <droxer.he@gmail.com>
-

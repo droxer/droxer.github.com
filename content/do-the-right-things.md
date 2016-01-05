@@ -1,5 +1,5 @@
 +++
-tags = ["thoughts", "retrospective"]
+tags = ["thoughts", "回顾"]
 date = "2015-12-31T22:51:09+08:00"
 title = "Do the Right Things"
 slug = "do_the_right_things"
