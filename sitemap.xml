@@ -1,1 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>http://blog.droxer.me/</loc>
+    <lastmod>2016-01-05T22:00:32+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://blog.droxer.me/https_explanation/</loc>
+    <lastmod>2016-01-05T22:00:32+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.droxer.me/do_the_right_things/</loc>
+    <lastmod>2015-12-31T22:51:09+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.droxer.me/understanding_reactive_functional_programming/</loc>
+    <lastmod>2015-12-26T21:18:04+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.droxer.me/enthusiastic_on_programming/</loc>
+    <lastmod>2015-10-28T23:34:00+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.droxer.me/contact/</loc>
+    <lastmod>2014-11-09T13:49:44+04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://blog.droxer.me/about/</loc>
+    <lastmod>2014-11-08T16:42:18+04:00</lastmod>
+  </url>
+  
+</urlset>
